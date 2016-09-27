@@ -1,7 +1,7 @@
 <html>
-<h1>Terninig udregner</h1>
+<h1>CubeSimulator</h1>
 <h2>By: Tim</h2>
-<input type="text" id="myText" value="Indtast ønskede antal kast">
+<input type="text" id="myText" value="Insert how many throws you want">
 <button onclick="myFunction()">Try it</button>
 <p id="demo"></p>
 <script>
@@ -12,50 +12,50 @@ var endf3 = 0;
 var endf4 = 0;
 var endf5 = 0;
 var endf6 = 0;
-var slagindtilnu = 0;
-var slag = document.getElementById("myText").value;;
+var currentTrows = 0;
+var trows = document.getElementById("myText").value;;
 var a1 = 0;
 var b2 = 0;
 var c3 = 0;
 var d4 = 0;
 var e5 = 0;
 var f6 = 0;
-while(slag > slagindtilnu) {
+while(trows > currentTrows) {
 
 var x = Math.floor(Math.random() * 6) + 1;  
 
 switch(x){
 case 1:
 	a1++;
-	slagindtilnu++;
+	currentTrows++;
 	break;
 case 2:
 	b2++;
-	slagindtilnu++;
+	currentTrows++;
 	break;
 case 3:
 	c3++;
-	slagindtilnu++;
+	currentTrows++;
 	break;
 case 4:
 	d4++;
-	slagindtilnu++;
+	currentTrows++;
 	break;
 case 5:
 	e5++
-	slagindtilnu++;
+	currentTrows++;
 	break;
 case 6:
 	f6++;
-	slagindtilnu++;
+	currentTrows++;
 	break;
 }
-endf1 = "1: "+ (a1/slag)*100 + " %";
-endf2 = "2: "+ (b2/slag)*100 + " %";
-endf3 = "3: "+ (c3/slag)*100 + " %";
-endf4 = "4: "+ (d4/slag)*100 + " %";
-endf5 = "5: "+ (e5/slag)*100 + " %";
-endf6 = "6: "+ (f6/slag)*100 + " %";
+endf1 = "1: "+ (a1/trows)*100 + " %";
+endf2 = "2: "+ (b2/trows)*100 + " %";
+endf3 = "3: "+ (c3/trows)*100 + " %";
+endf4 = "4: "+ (d4/trows)*100 + " %";
+endf5 = "5: "+ (e5/trows)*100 + " %";
+endf6 = "6: "+ (f6/trows)*100 + " %";
 
 document.getElementById("demo").innerHTML =
 "Udregner..." + "<br>" +endf1 + "<br>" + endf2 + "<br>" + endf3 + "<br>" + endf4 + "<br>" + endf5 + "<br>" + endf6;
