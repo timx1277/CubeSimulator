@@ -58,7 +58,7 @@ endf5 = "5: "+ (e5/trows)*100 + " %";
 endf6 = "6: "+ (f6/trows)*100 + " %";
 
 document.getElementById("demo").innerHTML =
-"Udregner..." + "<br>" +endf1 + "<br>" + endf2 + "<br>" + endf3 + "<br>" + endf4 + "<br>" + endf5 + "<br>" + endf6;
+"Calculating..." + "<br>" +endf1 + "<br>" + endf2 + "<br>" + endf3 + "<br>" + endf4 + "<br>" + endf5 + "<br>" + endf6;
 
 
 }
