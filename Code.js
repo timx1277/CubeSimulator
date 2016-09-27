@@ -50,12 +50,12 @@ case 6:
 	slagindtilnu++;
 	break;
 }
-endf1 = (a1/slag)*100 + " %";
-endf2 = (b2/slag)*100 + " %";
-endf3 = (c3/slag)*100 + " %";
-endf4 = (d4/slag)*100 + " %";
-endf5 = (e5/slag)*100 + " %";
-endf6 = (f6/slag)*100 + " %";
+endf1 = "1: "+ (a1/slag)*100 + " %";
+endf2 = "2: "+ (b2/slag)*100 + " %";
+endf3 = "3: "+ (c3/slag)*100 + " %";
+endf4 = "4: "+ (d4/slag)*100 + " %";
+endf5 = "5: "+ (e5/slag)*100 + " %";
+endf6 = "6: "+ (f6/slag)*100 + " %";
 
 document.getElementById("demo").innerHTML =
 "Udregner..." + "<br>" +endf1 + "<br>" + endf2 + "<br>" + endf3 + "<br>" + endf4 + "<br>" + endf5 + "<br>" + endf6;
