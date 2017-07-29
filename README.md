@@ -3,7 +3,7 @@ CubeSimulator can calculate example how many percent of 1000 throwns with a cube
 
 
 # How to play with CubeSimulator
-Copy all the code a place it into a text editor example NotePad. Chance the filetype to a HTML file and open it in a browser. 
+Copy all the code aand paste it in a text editor example NotePad. Change the filetype to a HTML file and open it in a browser. 
 
 How to change filetype on Windows:
 1. Go to Pathfinder
